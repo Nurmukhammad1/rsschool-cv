@@ -1,0 +1,247 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  @font-face {
+    font-family: 'Muller';
+    src: local('MullerRegular'),
+    url('../fonts/MullerRegular.woff') format('woff2'),
+    url('../fonts/MullerRegular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Muller';
+    src:local('MullerBold'),
+    url('../fonts/MullerBold.woff2') format('woff2'),
+    url('../fonts/MullerBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  }
+  
+  @font-face {
+    font-family:'Muller';
+    src: local('MullerLight'),
+    url('../fonts/MullerLight.woff2') format('woff2'),
+    url('../fonts/MullerLight.woff') format('woff');
+    font-weight:300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+  font-family:'Muller';
+  src: local('MullerMedium'),
+  url('../fonts/MullerMedium.woff2') format('woff2'),
+  url('../fonts/MullerMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  }
+  
+  body {
+    min-width: 1200px;
+    font-family: 'Muller', sans-serif;
+    background-color: #f1f1f1;
+    
+  }
+
+  .btn-reset {
+    padding:0;
+    border: none;
+    background-color: transparent;
+    cursor:  pointer;
+  }
+  
+   .list-reset {
+     margin: 0;
+     padding: 0;
+     list-style:  none;
+    
+   }
+   .title-reset{
+    font-size: 30px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color:rgb(125, 170, 47);
+   }
+  
+  .header-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .flex {
+    display:flex;
+  }
+  .container{
+    width: 1200px;
+    margin: 0 auto;
+    
+  }
+  
+  .header-nav{
+    text-align: right;
+    padding:14px 0 14px 45px;
+    background-color:rgba(85, 107, 47, 0.582);
+    padding-right: 50px;
+    margin-bottom: 70px;
+  }
+ .pict-list{
+    justify-content: center;
+    border-bottom: 10px solid #ce9222b7;
+ }
+  .header-list-item{
+     display: inline-block;
+    margin-right: 45px;
+    color:#f1f1f1;
+
+  }
+
+  .header-pict{
+      width:250px;
+      height:250px;
+      border-radius: 250px;
+      margin-right: 100px;
+      
+  }
+
+.h1{
+    display: inline-block;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    letter-spacing: 10px;
+    border-bottom: 2px solid rgba(102, 102, 91, 0.911);
+    color:darkkhaki;
+    margin-bottom: 40px;
+}
+
+.header-prof{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgba(190, 231, 95, 0.795);
+    text-align: center;
+}
+
+/*contacts*/
+.contacts{
+    width:600px;
+    border-bottom: 1px solid #ce9222b7;
+    margin-right: 20px;
+}
+.summary{
+    display: inline-block;
+    width: 600px;
+    border-bottom: 1px solid #ce9222b7;
+}
+
+.address-list{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+
+.item-address, .item-email, .item-git, .item-telegram, .item-dis{
+    width:100%;
+    margin: 0;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-style:normal;
+    font-size: larger;
+    color: #3333339f;
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: contain;
+}
+.item-address{ 
+    background-image: url('../Img/Vector1.png');
+}
+.item-email{ 
+    background-image: url('../Img/Gmail.png');
+}
+
+.item-git{
+    background-image: url('../Img/Github.png');
+}
+.item-telegram{
+    background-image: url('../Img/Telegram.png');
+    
+}
+.item-dis{
+    background-image: url('../Img/Discord.png');
+}
+.section-text{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 130%;
+    color: #333333a9;
+}
+
+/*skills, code*/
+.prof-infor{
+    margin-bottom: 40px;
+}
+.skills-section, .code-section, .courses, .projects, .education, .language{
+    display: inline-block;
+    width: 600px;
+    border-bottom: 1px solid #ce9222b7;
+    margin-right: 20px;
+
+}
+
+.code-section{
+    margin:0;
+}
+.skills-list{
+    padding-left: 20px;
+}
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8, .item-9, .item-10, .item-11, .item-12, .lang-skill, .educ-descr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style:normal;
+    font-size: larger;
+    color: #3333339f;
+    list-style:circle;
+}
+
+/*courses, projects*/
+
+.projects{
+    padding-left: 20px;
+}
+.education, .language{
+    border-bottom: none;
+}
+.footer{
+
+    height:90px;
+    background-color:rgba(85, 107, 47, 0.582);
+}
